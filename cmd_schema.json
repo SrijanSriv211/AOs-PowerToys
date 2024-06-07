@@ -1,0 +1,47 @@
+"cmd_schema": [
+    {
+        "cmd_names": ["export"],
+        "help_message": "Export text from the console",
+        "usage": [
+            "export [filepath (STRING)]",
+            "Note: AOs follows the same string handling conventions as in C#.\n",
+            "Example usage:",
+            "export Test.txt                         # Save the terminal text to \"Test.txt\"",
+            "export \"MyFolder\\Text.txt\"           # Save the terminal text to \"MyFolder\\Text.txt\""
+        ],
+        "supported_args": null,
+        "default_values": [""],
+        "is_flag": false,
+        "min_arg_len": 1,
+        "max_arg_len": 1,
+        "method": "D:\\Dev Projects\\AOs\\AOs-2.6\\AOs\\Files.x72\\etc\\PowerToys\\Export\\Export.bat",
+        "location": "external",
+        "do_index": true
+    },
+    {
+        "cmd_names": ["py"],
+        "help_message": "Python build system",
+        "usage": null,
+        "supported_args": [
+            {
+                "args": ["install"],
+                "help_message": "Install pip packages in the current virtual environment"
+            },
+            {
+                "args": ["freeze"],
+                "help_message": "Create \"requirements.txt\" for current virtual environment"
+            },
+            {
+                "args": ["list"],
+                "help_message": "List all installed pip packages from the current virtual environment"
+            }
+        ],
+        "default_values": [""],
+        "is_flag": false,
+        "min_arg_len": 0,
+        "max_arg_len": 0,
+        "method": "D:\\Dev Projects\\AOs\\AOs-2.6\\AOs\\Files.x72\\etc\\PowerToys\\Py\\Py.bat",
+        "location": "external",
+        "do_index": true
+    }
+]

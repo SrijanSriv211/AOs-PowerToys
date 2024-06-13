@@ -1,6 +1,6 @@
 "cmd_schema": [
     {
-        "cmd_names": ["export"],
+        "cmd_names": ["Export-Text", "export"],
         "help_message": "Export text from the console",
         "usage": [
             "export [filepath (STRING)]",
@@ -19,7 +19,7 @@
         "do_index": true
     },
     {
-        "cmd_names": ["py"],
+        "cmd_names": ["Python-Make", "py"],
         "help_message": "Python build system",
         "usage": null,
         "supported_args": [

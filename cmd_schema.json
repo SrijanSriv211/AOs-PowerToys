@@ -1,5 +1,24 @@
 "cmd_schema": [
     {
+        "cmd_names": ["BigSur", "chwall"],
+        "help_message": "Change current wallpaper of your PC.",
+        "usage": [
+            "export [filepath (STRING)]",
+            "Note: AOs follows the same string handling conventions as in C#.\n",
+            "Example usage:",
+            "BigSur image.png",
+            "BigSur \"MyFolder\\image.jpg\""
+        ],
+        "supported_args": null,
+        "default_values": [""],
+        "is_flag": false,
+        "min_arg_len": 1,
+        "max_arg_len": 1,
+        "method": "D:\\Dev Projects\\AOs\\AOs-2.7\\AOs\\Files.x72\\etc\\PowerToys\\BigSur\\BigSur.bat",
+        "location": "external",
+        "do_index": true
+    },
+    {
         "cmd_names": ["Export-Text", "export"],
         "help_message": "Export text from the console",
         "usage": [

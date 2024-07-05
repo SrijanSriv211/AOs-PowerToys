@@ -14,7 +14,7 @@
         "is_flag": false,
         "min_arg_len": 1,
         "max_arg_len": 1,
-        "method": "D:\\Dev Projects\\AOs\\AOs-2.6\\AOs\\Files.x72\\etc\\PowerToys\\Export\\Export.bat",
+        "method": "AOs\\Files.x72\\etc\\PowerToys\\Export\\Export.bat",
         "location": "external",
         "do_index": true
     },
@@ -40,7 +40,7 @@
         "is_flag": false,
         "min_arg_len": 0,
         "max_arg_len": 0,
-        "method": "D:\\Dev Projects\\AOs\\AOs-2.6\\AOs\\Files.x72\\etc\\PowerToys\\Py\\Py.bat",
+        "method": "AOs\\Files.x72\\etc\\PowerToys\\Py\\Py.bat",
         "location": "external",
         "do_index": true
     }
